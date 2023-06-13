@@ -27,6 +27,7 @@
     <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Head.cpp" />
     <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Part.cpp" />
     <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Snake.cpp" />
+    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Body.h" />

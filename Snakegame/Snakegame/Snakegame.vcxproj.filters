@@ -42,6 +42,9 @@
     <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Snake.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Head.h">
