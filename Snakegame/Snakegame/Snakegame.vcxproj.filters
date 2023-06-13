@@ -13,10 +13,68 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{fa682ee5-012b-4af7-9791-23f9af48a236}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Test.cpp">
+    <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Head.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Body.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleEngineCore.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleMath.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleScreen.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Part.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Snake.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Head.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Body.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleEngineCore.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleMath.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleObject.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleScreen.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Part.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\테스트제한사항.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Snake.vcxproj">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Snake.vcxproj.filters">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -18,6 +18,30 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Body.cpp" />
+    <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleEngineCore.cpp" />
+    <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleMath.cpp" />
+    <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleObject.cpp" />
+    <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleScreen.cpp" />
+    <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Head.cpp" />
+    <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Part.cpp" />
+    <ClCompile Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Snake.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Body.h" />
+    <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleEngineCore.h" />
+    <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleMath.h" />
+    <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleObject.h" />
+    <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\ConsoleScreen.h" />
+    <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Head.h" />
+    <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Part.h" />
+    <ClInclude Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\테스트제한사항.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Snake.vcxproj" />
+    <None Include="..\..\..\AR_UE5_GAME\CPlusPlus\Snake\Snake.vcxproj.filters" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,9 +150,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Test.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
